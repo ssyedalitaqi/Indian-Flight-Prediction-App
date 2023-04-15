@@ -1,0 +1,80 @@
+
+h1{
+    color: white;
+}
+div{
+    text-align: center;
+    box-sizing: border-box;
+   
+}
+.box{
+    margin:50px 10px 0px 1px ;
+}
+body{
+    background-image: url('https://images.unsplash.com/photo-1521727857535-28d2047314ac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGFpciUyMGZsaWdodHN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60');
+    background-position: 200%;
+    background-size: cover;
+}
+.x{
+    display: flex;
+    flex-direction: column;
+}
+.x1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 1px;
+    display: block;
+}
+.y1{
+    text-align: left;
+    padding: 20px;
+    width: 400px;
+    min-width: 250px;
+    max-width: 400px;
+    height:100px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 4px;
+}
+.btn{
+    /* background-color: blue; */
+   width:200px;
+   margin-right: auto;
+   position: relative;
+}
+.b{
+    position: absolute;
+    left: 8.5rem;
+    background-color:white;
+    color: black;
+    padding: 5px;
+    border-radius: 4px;
+    width: 100px;
+    margin-top: 30px;
+    display: block;
+    border: none;
+}
+.predict{
+   
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.b:hover{
+    background-color: blue;
+    color: white;
+}
+@media (max-width:538px) {
+    .x1{
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+}
